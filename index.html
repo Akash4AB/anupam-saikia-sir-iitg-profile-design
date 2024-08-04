@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupam Saikia - Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <a href="#">Anupam Saikia</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#students">Students</a></li>
+                <li><a href="login.html" class="edit-profile-btn">Edit Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="MAI.jpg" alt="Anupam Saikia" class="profile-pic">
+            <div class="profile-info">
+                <h1>Anupam Saikia</h1>
+                <p>Professor, Department of Mathematics, IIT Guwahati</p>
+                <p>Research Interest: Number Theory</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="content-section">
+        <h2>Publications</h2>
+        <div class="publications-container">
+            <div class="publications-tab">
+                <button class="tab-button active" onclick="openTab(event, 'Conferences')">Conferences</button>
+                <button class="tab-button" onclick="openTab(event, 'Journals')">Journals</button>
+            </div>
+            <div id="Conferences" class="tab-content" style="display: block;">
+                <p><strong>S. M. Mefire</strong>, “Static regime imaging of certain 3D electromagnetic imperfections from
+                a boundary perturbation formula,” <em>J. Comput. Math.</em>, vol. 32, no. 4, pp. 412–441, Jul. 2014, doi: 10.4208/jcm.1401-m4214.</p>
+                <!-- Additional Conference Publications -->
+            </div>
+            <div id="Journals" class="tab-content">
+                <p><strong>Author Name</strong>, “Title of Publication,” <em>Journal Name</em>, vol. X, no. Y, pp. 000-000, Year, doi: DOI.</p>
+                <!-- Additional Journal Publications -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section">
+        <h2>Projects</h2>
+        <div class="tab-content" style="display: block;">
+            <p>Project 1 Description</p>
+            <p>Project 2 Description</p>
+            <!-- Additional Projects -->
+        </div>
+    </section>
+
+    <section id="students" class="content-section">
+        <h2>Students</h2>
+        <div class="tab-content" style="display: block;">
+            <p>Student 1</p>
+            <p>Student 2</p>
+            <!-- Additional Students -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>Contact: <a href="mailto:a.saikia@iitg.ac.in">a.saikia@iitg.ac.in</a></p>
+            <p>Phone: +91 361 258 2616</p>
+            <p>© 2024 Anupam Saikia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
